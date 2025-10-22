@@ -11,7 +11,7 @@
 
   <!--CEO Y OG-->
   <meta name="description" content="Kenyi Campos Portfolio - Web Developer in Training">
-  
+
   <meta name="author" content="Kenyi CAMPOS TENORIO">
 
   <meta name="title" content="Kenyi CAMPOS TENORIO Portfolio">
@@ -41,54 +41,128 @@
   <meta name="keywords"
     content="Kenyi Campos, Portfolio, Web Developer, Full-Stack Developer, HTML, CSS, JavaScript, Projects">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/GeneralStyle.css">
+
+
   <title>PORTFOLIO</title>
+
 
 </head>
 
 <body>
 
-  <header>
-    <h1>Kenyi Campos — Web Developer in Training</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="main-container">
+    <header class="header">
+      <h1>elchicogpt</h1>
+      <nav class="menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="hamburger" class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
 
-  <main id="main-content">
-    <section id="home">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Hi, I'm Kenyi, a student passionate about technology. I'm learning full-stack web development with a
-        professional focus. I love creating and understanding how code works from scratch..</p>
-    </section>
+    <main class="main">
+      <section class="home">
+        <h2>Kenyi Campos Tenorio</h2>
+        <h3>Full-Stack Web Developer in Training</h3>
+        <p>Hi, I'm Kenyi, a student passionate about technology. I'm learning full-stack web development with a
+          professional focus. I love creating and understanding how code works from scratch..</p>
+        <div class="cv-links">
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I specialize in web development and have a keen interest in creating dynamic and user-friendly websites.</p>
-    </section>
+          <a href="#" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a>
+          <a href="#" class="github" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+          <a href="#" class="cv" target="_blank"><i class="fas fa-file"></i>Download CV</a>
 
-    <section id="projects">
-      <h2>My Projects</h2>
-      <ul>
-        <li>Project 1: ... </li>
-        <li>Project 2: ... </li>
-        <li>Project 3: ... </li>
-      </ul>
-    </section>
+        </div>
+      </section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="campost.kenyi@gmail.com">campost.kenyi@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/elchicogpt-dev" target="_blank">github.com/elchicogpt-dev</a></p>
-  </main>
+      <section class="about">
+        <h2>About Me</h2>
+        <div class="myphilosophy">
+          <img src="#" alt="">
+          <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nobis sapiente modi eaque maiores
+              debitis beatae error saepe inventore corrupti consectetur impedit, sequi illum magni aliquam maxime
+              dolorum, praesentium animi accusamus architecto, neque repellat rerum voluptate mollitia. Quaerat, optio
+              tempore.</p>
+            <blockquote>My philosophy<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque sapiente laborum
+                modi accusamus illo hic veniam mollitia. Molestiae architecto fugiat, voluptatibus, libero est quisquam
+                impedit, dolores consequatur numquam amet delectus!</p>
+            </blockquote>
+          </div>
+        </div>
+      </section>
 
-  <footer>
-    <p>© 2025 Kenyi CAMPOS TENORIO. All rights reserved.</p>
-  </footer>
+      <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+          <article class="project-item">
+            <img src="assets/img/inproccess.png" alt="Project 1">
+            <div class="text-item">
+              <h3>Project 1</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ratione sapiente itaque eligendi tempore natus sunt impedit, illo ab eveniet.</p>
+              <div class="tec-item">
+                <a href="#">tecnologia 1</a>
+                <a href="#">tecnologia 2</a>
+                <a href="#">tecnologia 3</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-item">
+            <img src="assets/img/inproccess.png" alt="Project 2">
+            <div class="text-item">
+              <h3>Project 1</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nemo error accusamus.</p>
+              <div class="tec-item">
+                <a href="#">tecnologia 1</a>
+                <a href="#">tecnologia 2</a>
+                <a href="#">tecnologia 3</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-item">
+            <img src="assets/img/inproccess.png" alt="Project 3">
+            <div class="text-item">
+              <h3>Project 1</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, impedit. Pariatur, blanditiis? Labore consequuntur nisi quos, magni ea assumenda omnis!</p>
+              <div class="tec-item">
+                <a href="#">tecnologia 1</a>
+                <a href="#">tecnologia 2</a>
+                <a href="#">tecnologia 3</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="campost.kenyi@gmail.com">campost.kenyi@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/elchicogpt-dev" target="_blank">github.com/elchicogpt-dev</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kenyi-campos-tenorio-4b4b2523b/"
+            target="_blank">linkedin.com/in/kenyi-campos-tenorio/</a></p>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 Kenyi CAMPOS TENORIO. All rights reserved.</p>
+    </footer>
+
+  </div>
 
 </body>
 
